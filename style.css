@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  /* padding: 0; */
+}
+/* :root {
+  --bor: 2px solid rgb(213, 222, 231);
+  --txt_size_medium:16px;
+  --bg:transparent;
+  --ff:Calibri, sans-serif;
+  --col:black;
+  --pad:5px 20px;
+  --colorpink:rgb(224, 106, 106);
+} */
+button{
+  font-size: 10px;
+  background-color: rgb(181, 101, 181);
+  font-family:Calibri, sans-serif ;
+  color: white;
+  padding: 5px 20px;
+  border: 0;
+  border-radius: 5px;
+}
+.wrap-button{
+  border-radius: 20%;
+}
+
+html {
+  font-family: Calibri, sans-serif;
+  color: #234;
+}
+body {
+  margin: 0;
+}
+.row {
+  font-size: 0;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.row>div {
+  display: inline-block;
+  font-size: 16px;
+  height: 100%;
+  vertical-align: top;
+  overflow: hidden;
+  white-space: normal;
+}
+.pave {
+  text-align: center;
+  /* font-size: 0; */
+}
+.pave>div {
+  display: inline-block;
+  margin: 10px;
+  vertical-align: top;
+  text-align: left;
+  overflow: hidden;
+}
